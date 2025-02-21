@@ -45,7 +45,7 @@ async function popupsHandler() {
         await page.waitForSelector('#acceptButton', { visible: true, timeout: 10000 });
         await page.click('#acceptButton');
     } catch (error) {
-        console.log('Acceptance failed/not needed.', error);
+        console.log('Nem sikerült elfogadni/nem volt rá szükség', error);
     }
 
     try {
@@ -53,7 +53,7 @@ async function popupsHandler() {
         await page.click('span#id__8');
         console.log("Popup closed.");
     } catch (error) {
-        console.log('OK button not found or not needed.', error);
+        console.log('Ok gomb-ot nem sikerült elfogadni/nem volt rá szükség', error);
     }
 }
 

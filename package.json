@@ -1,0 +1,16 @@
+{
+  "name": "fintechteszt",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+     "test": "cucumber-js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@cucumber/cucumber": "^11.2.0",
+    "puppeteer": "^24.2.1"
+  }
+}
